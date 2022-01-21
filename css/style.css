@@ -12,7 +12,9 @@ Version         : v 1.00
     1.Theme default css
     2. header area
     3. catagories area
-
+    4. shoes area
+    5. backpack area
+    6. subscribe area
 -----------------------------------------------------*/
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700&display=swap');
@@ -48,11 +50,11 @@ a,
 a:hover{
     text-decoration: none;
 }
-/* input:focus,
+input:focus,
 textarea:focus{
     outline: 0;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-} */
+}
 ul{
     list-style: none;
 }
@@ -80,7 +82,31 @@ h6 {
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
     border-radius: 1rem;
     text-transform: uppercase;
+}
 
+.section-btn:hover {
+    background: linear-gradient(#000000,#000000);
+}
+.section-padding {
+    padding: 3rem 0;
+}
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem;
+}
+.section-title h2{
+    font-weight: 600;
+    color: #1F1F1F;
+    font-size: 3.6rem;
+    text-transform: capitalize;
+}
+.section-title a{
+    color: #FF9D00;
+    font-size: 20;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 /*---- header area
 ============================================= */
@@ -138,13 +164,135 @@ h6 {
 /*---- catagories area
 ============================================= */
 
+.catagories-content-items h3{
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
 
+#bag-background {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 1rem;
+}
+#shoes-background {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    border-radius: 1rem;
+}
+#watch-background {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    border-radius: 1rem;
+}
+/*---- shoes area
+============================================= */
+.display-area {
+    background-color: #F4F4F4;
+}
+.shoes-items {
+    text-align: center;
+    border-radius: 2rem;
+    background-color: #fff;
+    padding-bottom: 2.5rem !important;
+}
+.shoes-items img {
+    width: 80%;
+}
+.shoes-items h3 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #1F1F1F;
+}
+.shoes-items p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color:#4E4E4E ;
+    font-weight: 400;
+}
+.shoes-items span {
+    font-size: 2.4rem;
+    color: #000;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.shoes-items .section-btn{
+    margin: 0 auto;
+}
+/*---- backpack area
+============================================= */
+.backpack-items {
+    text-align: center;
+    border-radius: 2rem;
+    background-color: #fff;
+    padding-bottom: 2.5rem !important;
+}
+.backpack-items img {
+    width: 60%;
+}
+.backpack-items h3 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #1F1F1F;
+    margin-top: 2rem;
+}
+.backpack-items p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color:#4E4E4E ;
+    font-weight: 400;
+}
+.backpack-items span {
+    font-size: 2.4rem;
+    color: #000;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.backpack-items .section-btn{
+    margin: 0 auto;
+}
 
+/*---- subscribe area
+============================================= */
+.subscribe-area.section-padding {
+    padding: 5rem;
+}
 
-
-
-/* @media only screen and (max-width: 767.98px) {
-   #top-search-bar {
-       display: none;
-   }
-  } */
+.subscribe-area .all-items {
+    padding: 14.7rem 0;
+    background-color: #FEF2F1;
+}
+.subscribe-area .all-items h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    color: #1F1F1F;
+    text-transform: uppercase;
+}
+.subscribe-area .all-items p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #707070;
+    
+}
+.subscribe-area .all-items form input[type="text"] {
+    max-width: 60rem;
+    height: 6rem;
+    line-height: 7.3rem;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    padding: 2rem;
+    border: .1rem solid #f1f1f1;
+}
+.subscribe-area .all-items form input[type="submit"] {
+    padding: 0 4.5rem;
+    border: none;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: capitalize;
+    
+}
