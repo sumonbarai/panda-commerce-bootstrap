@@ -1,0 +1,150 @@
+/*----------------------------------------------------
+
+Template Name   : panda-commerce website
+Description     : it is my practice project
+Author          : sumon barai
+Version         : v 1.00
+
+------------------------------------------------------
+    ==============
+     CSS INDEX
+    ==============
+    1.Theme default css
+    2. header area
+    3. catagories area
+
+-----------------------------------------------------*/
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+/*---- Theme default css
+============================================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+/* input:focus,
+textarea:focus{
+    outline: 0;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+} */
+ul{
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.section-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #fff;
+    cursor: pointer;
+    width: 16.8rem;
+    height: 5.2rem;
+    line-height: 5.2rem;
+    text-align: center;
+    display: block;
+    border: none;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 1rem;
+    text-transform: uppercase;
+
+}
+/*---- header area
+============================================= */
+.header-area {
+    background-color: #fff;
+    overflow: hidden;
+}
+.banner-area {
+    border-radius: 2rem;
+    background-color: #fff;
+}
+.banner-bg-1 {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    padding: 6.8rem 4.6rem;
+    border-radius: 1rem;
+}
+.banner-bg-2 {
+    background-color: #f0a471;
+    padding: 6.8rem 4.6rem;
+    border-radius: 1rem;
+}
+.banner-bg-3 {
+    background-color: #FDEAE9;
+    padding: 6.8rem 4.6rem;
+    border-radius: 1rem;
+}
+.header-area .navbar-light .navbar-nav .nav-link {
+    color: #707070;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #F54790 !important;
+}
+.banner-content h1 {
+    font-size: 5.6rem;
+    text-transform: uppercase;
+    color: #1F1F1F;
+}
+.banner-content p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #4E4E4E;
+    max-width: 62.6rem;
+    margin-bottom: 2.5rem;
+}
+.banner-content span{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 6.1rem;
+    color: #FF136F;
+}
+/*---- catagories area
+============================================= */
+
+
+
+
+
+
+/* @media only screen and (max-width: 767.98px) {
+   #top-search-bar {
+       display: none;
+   }
+  } */
